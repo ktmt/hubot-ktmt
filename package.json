@@ -29,7 +29,8 @@
     "hubot-irc": "git://github.com/kiennt/hubot-irc#master",
     "soupselect": ">= 0.2.0",
     "htmlparser": ">= 1.7.6",
-    "nodepie": "0.6.1"
+    "nodepie": "0.6.1",
+    "request": ">= 2.21.0"
   },
 
   "engines": {
