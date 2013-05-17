@@ -2,5 +2,7 @@
 
 export PATH="node_modules/.bin:node_modules/hubot/node_modules/.bin:$PATH"
 
+echo $HUBOT_IRC_NICK
+echo $HUBOT_IRC_PASSWORD
 exec node_modules/.bin/hubot "$@"
 
