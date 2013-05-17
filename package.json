@@ -26,11 +26,12 @@
   "dependencies": {
     "hubot":         ">= 2.5.1",
     "hubot-scripts": ">= 2.4.2",
-    "hubot-irc": "git://github.com/kiennt/hubot-irc#master",
+    "hubot-irc": ">= 0.1.12",
     "soupselect": ">= 0.2.0",
     "htmlparser": ">= 1.7.6",
     "nodepie": "0.6.1",
-    "request": ">= 2.21.0"
+    "request": ">= 2.21.0",
+    "mongoose": ">= 3.6.10"
   },
 
   "engines": {
