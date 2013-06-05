@@ -21,5 +21,5 @@ module.exports = (robot) ->
 
   robot.hear /.*$/i, (msg) ->
     message = msg.message
-    log = new ChatLog({ name: message.user.name, content: message.text })
-    log.save()
+    #log = new ChatLog({ name: message.user.name, content: message.text })
+    #log.save()
